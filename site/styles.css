@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(3, 29, 68);
+}
+.profilebox{
+    /* background-color: rgb(4, 57, 94); */
+    float: right;
+}
+
+#profilebox_top{
+    background-color: rgb(4, 57, 94);
+}
+#profilebox_middle{
+    background-color: rgb(4, 57, 94);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.github_button{
+    border-radius: 5%;
+    background-color: rgb(22, 27, 34);
+    color: rgb(255, 255, 255);
+    height: 75px;
+    width: 350px;
+    margin-top: 25px;
+}
+.profileimage{
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
