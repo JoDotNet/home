@@ -1,33 +1,95 @@
+:root{
+    --backdrop-colour: #18191c;
+    --backbox-colour: #162940;
+    --topbox-colour: #153152;
+}
 body{
-    background-color: rgb(3, 29, 68);
-}
-.profilebox{
-    /* background-color: rgb(4, 57, 94); */
-    float: right;
+    background-color: var(--backdrop-colour);
 }
 
-#profilebox_top{
-    background-color: rgb(4, 57, 94);
+.div_box{
+    background-color: var(--backbox-colour);
+    width: 1000px;
+    height: 250px;
+
+    margin-top: 40px;
+    margin-left: 40px;
+
+    border-radius: 12.5px;
 }
-#profilebox_middle{
-    background-color: rgb(4, 57, 94);
+.div_contact_box{
+    background-color: var(--topbox-colour);
+    width: 500px;
+    height: 100%;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    color: #ffffff;
+
     text-align: center;
-    color: rgb(255, 255, 255);
+
+    font-family: Quicksand;
+}
+.div_contact_box_description{
+    background-color: var(--backdrop-colour);
+    width: 75%;
+    height: 300px;
+    
+    border-radius: 12.5px;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+
+    margin: auto;
+    text-align: center;
+    
+    font-family: Quicksand;
 }
 
-.github_button{
-    border-radius: 5%;
-    background-color: rgb(22, 27, 34);
-    color: rgb(255, 255, 255);
-    height: 75px;
-    width: 350px;
-    margin-top: 25px;
+.title{
+    color: #ffffff;
+
+    margin-top: 2%;
+    margin-left: 1%;
+
+    font-family: Quicksand;
 }
-.profileimage{
+.description{
+    color: #ffffff;
+
+    margin-top: 2%;
+    margin-left: 1%;
+
+    font-family: Quicksand;
+}
+.button{
+    background-color: var(--backdrop-colour);
+    color: #ffffff;
+    border: 0;
+
+    width: 75%;
+    height: 75px;
+
+    margin-top: 15px;
+
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 325%;
+
+    border-radius: 12.5px;
+}
+
+
+.discordprofilepic{
+    width: 50%;
+    height: auto;
+
+    margin-top: 13px;
+    /* margin-bottom: 75px; */
     border-radius: 50%;
-    width: 128px;
-    height: 128px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+.discordprofilename{
+    font-size: 35px; 
 }
