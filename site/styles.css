@@ -2,6 +2,10 @@
     --backdrop-colour: #18191c;
     --backbox-colour: #162940;
     --topbox-colour: #153152;
+
+    --github-colour: #171515;
+    --spotify-colour: #1DB954;
+    --youtube-colour: #FF0000;
 }
 body{
     background-color: var(--backdrop-colour);
@@ -79,6 +83,16 @@ body{
     font-size: 325%;
 
     border-radius: 12.5px;
+}
+
+#button1{
+    background-color: var(--github-colour)
+}
+#button2{
+    background-color: var(--spotify-colour)
+}
+#button3{
+    background-color: var(--youtube-colour)
 }
 
 
