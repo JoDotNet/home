@@ -104,6 +104,12 @@ body{
     font-size: 325%;
 
     border-radius: 12.5px;
+
+    transition: margin-right .2s;
+}
+
+.button:hover {
+    margin-right: 4%;
 }
 
 #button1{
