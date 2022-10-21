@@ -5,7 +5,10 @@
 
     --github-colour: #161b22;
     --spotify-colour: #1DB954;
-    --youtube-colour: #FF0000;
+    --youtube-red-colour: #ff2626;
+    --youtube-black-colour: #282828;
+    --gmail-colour: #DB4437;
+    --paypal-colour: #0d56aa;
 }
 body{
     background-color: var(--backdrop-colour);
@@ -19,11 +22,29 @@ body{
     margin-top: 40px;
     margin-left: 40px;
 
-    border-radius: 12.5px;
+    /* border-radius: 12.5px; */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.div_box_top-info{
+    background-color: var(--backbox-colour);
+    width: 140px;
+    height: 25px;
+    text-align: left;
+    position: fixed;
+    top: 15px;
+    left: 48.25px;
+    /* border-radius: 7px; */
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+    font-size: 14px;
 }
 .div_contact_box{
     background-color: var(--topbox-colour);
-    width: 500px;
+    width: 400px;
     height: 100%;
     
     position: absolute;
@@ -39,7 +60,7 @@ body{
 .div_contact_box_description{
     background-color: var(--backdrop-colour);
     width: 75%;
-    height: 325px;
+    height: 250px;
     
     border-radius: 12.5px;
     /* position: absolute;
@@ -73,7 +94,7 @@ body{
     color: #ffffff;
     border: 0;
 
-    width: 75%;
+    width: 90%;
     height: 75px;
 
     margin-top: 15px;
@@ -92,14 +113,13 @@ body{
     background-color: var(--spotify-colour)
 }
 #button3{
-    background-color: var(--youtube-colour)
+    background-color: var(--youtube-red-colour)
 }
-
-#title1{
-    text-align: left;
+#button4{
+    background-color: var(--gmail-colour);
 }
-#title2{
-    text-align: right;
+#button5{
+    background-color: var(--paypal-colour);
 }
 
 #title_contact{
@@ -116,13 +136,20 @@ body{
 #box3{
     width: 35%;
 }
+
+/* #last-edited{
+    position: absolute;
+    top: 24%;
+    right: 45%;
+} */
 .discordprofilepic{
     width: 50%;
     height: auto;
 
     margin-top: 13px;
-    /* margin-bottom: 75px; */
     border-radius: 50%;
+
+    /* outline: 3px solid var(--topbox-colour); */
 }
 .discordprofilename{
     font-size: 35px; 
