@@ -1,0 +1,14 @@
+            <p class="description">
+                Welcome to my Portfolio!
+                <br>
+                <br>
+                My name is Jo,
+                <br>
+                I'm from Norway
+                <img src="https://twemoji.maxcdn.com/v/14.0.2/72x72/1f1f8-1f1ef.png" id="norway_flag">
+                <br>
+                I'm 15 years old
+                <br>
+                I started coding when I was 12 years old
+                
+            </p>
